@@ -1,0 +1,30 @@
+TOOLS
+Open Zeppelin
+
+MICROSERVICE ARCHITECTURE
+Platform API
+	Mint tokens
+	View available tokens
+	Place orders (Buy / Sell)
+	Transfer tokens
+
+Blockhain Interaction API
+	Mint tokens on blockchain
+	Transfer tokens on the blockchain
+
+Order Matching Engine
+	Match Buy orders to Sell orders
+	Execute trades
+
+User Account Management API
+	Store user account balance
+	Store user transaction history
+
+User authentication API
+	Authenticate Users
+	Match each user to a wallet address
+
+Payments API
+	Receive payment from user
+	Send payment to user's external accounts
+	Update user account balance

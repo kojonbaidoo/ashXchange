@@ -1,0 +1,44 @@
+USERS
+Brokerage
+Retail
+
+USER REQS
+BROKERAGE
+- List Security
+	- Create smart contract
+- Issue security to retail users
+	- Send tokens from smart contract to wallet address
+
+RETAIL
+- Buy and Sell security
+	- Send tokens from one address to another
+
+
+DATABASE
+Table 1: Users
+	userID
+	name
+	email
+	hashedPassword
+	walletAddress
+
+Table 2: Securities
+	securityID
+	securityName
+	contractAddress
+	userID
+	securityPrice
+
+Table 3: Transactions
+	senderID
+	receipientID
+	securityID
+	transactionAmount
+	securityPrice
+	transactionHash
+
+Table 4: User Holdings
+	userID
+	securityID
+
+	
